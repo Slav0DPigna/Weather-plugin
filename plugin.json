@@ -4,5 +4,6 @@
     "description": "This plugin provides weather information using the OpenWeatherMap API.",
     "author_name": "Slav0",
     "tags": "cat, weather",
-    "thumb": "https://raw.githubusercontent.com/Slav0DPigna/Weather-plugin/refs/heads/main/ico.jpg"
+    "thumb": "https://raw.githubusercontent.com/Slav0DPigna/Weather-plugin/refs/heads/main/ico.jpg",
+    "url": "https://github.com/Slav0DPigna/Weather-plugin"   
 }
