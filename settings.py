@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from cat.mad_hatter.decorators import plugin
 
 class MySettings(BaseModel):
-    api_key: str
+    api_key: SecretStr
     curiosity: bool=True
     language: str ="Italian"
 
