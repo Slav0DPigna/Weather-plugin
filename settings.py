@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel ,SecretStr
 from cat.mad_hatter.decorators import plugin
 
 class MySettings(BaseModel):
