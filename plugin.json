@@ -1,8 +1,10 @@
 {
     "name": "Weather plugin",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "This plugin provides weather information using the OpenWeatherMap API.",
     "author_name": "Slav0",
+    "author_url": "https://github.com/Slav0DPigna",
+    "plugin_url": "https://github.com/Slav0DPigna/Weather-plugin",
     "tags": "cat, weather",
     "thumb": "https://raw.githubusercontent.com/Slav0DPigna/Weather-plugin/refs/heads/main/ico.jpg",
     "url": "https://github.com/Slav0DPigna/Weather-plugin"   
