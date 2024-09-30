@@ -22,7 +22,7 @@ def get_weather(city_name, country,api_key):
 
 class Weather(BaseModel):
     city: str= Field(description="Una cittá per controllare il meteo attuale")
-    country: str= Field(description="la nazione della cittá espressa dalle iniziali in maiuscolo")
+    country: str= Field(description="le iniziali della nazione in maiuscolo di cui fa parte la cittá per controllare il meteo")
 
 @form
 class Weather_form(CatForm):
