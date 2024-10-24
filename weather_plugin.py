@@ -26,7 +26,7 @@ class Weather(BaseModel):
 
 @form
 class Weather_form(CatForm):
-    description = "Check weather infromation for a given location"
+    description = "Check weather information for a given location"
     model_class = Weather
     start_examples = [
         "Che tempo fa",
@@ -54,7 +54,10 @@ class Weather_form(CatForm):
         language= settings["language"]
 
         contex=self.get_prefix() +"""Quello che segue é un json che contiene le informazioni meteo di una cittá,
-                                     riferiscimi e interpreta le informazioni riguardo il meteo ometti le altre, 
+                                     interpreta e riferiscimi le informazioni riguardo il meteo in maniera
+                                     colloquiale senza dirmi che le hai prese da un json,
+                                     tralasciando i dettagli (come la pressione) concentrandoti 
+                                     invece sulle condizioni del cielo e sulla temperatura(max, min e percepita), 
                                      rispondi in """
         contex=contex+language+"."
         curiosity_promtp="Prima di finire racconta sempre un aneddoto interessante sul meteo."
